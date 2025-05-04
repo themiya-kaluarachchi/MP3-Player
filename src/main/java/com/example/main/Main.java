@@ -14,7 +14,7 @@ public class Main extends Application
     {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("Scene.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Chill Player");
         stage.setScene(scene);
         stage.show();
     }
