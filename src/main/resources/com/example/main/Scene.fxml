@@ -43,6 +43,6 @@
          </font>
       </Button>
       <ComboBox fx:id="speedBox" layoutX="323.0" layoutY="105.0" onAction="#changeSpeed" prefHeight="31.0" prefWidth="83.0" promptText="SPEED" />
-      <Slider fx:id="volumeSlider" layoutX="413.0" layoutY="114.0" max="200.0" value="100.0" />
+      <Slider fx:id="volumeSlider" layoutX="413.0" layoutY="114.0" max="100.0" value="50.0" />
    </children>
 </AnchorPane>
